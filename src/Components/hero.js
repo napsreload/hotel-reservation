@@ -1,43 +1,47 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
+var heroData = [
+  {
+    id: 1,
+    image: require('../assets/image/img-hero1.jpg'),
+    title: 'everywhere good',
+    description: 'am coming for you just wait',
+    link: 'https://www.googel.com'
+  },
+  {
+    id: 2,
+    image: require('../assets/image/img-hero1.jpg'),
+    description: 'am coming for you just wait',
+    link: 'https://www.facebook.com'
+
+  },
+
+]
+
 export default function AppHero() {
   return (
     <section id="home" className="hero-block">
       <Carousel data-bs-theme="dark">
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="path_to_your_image1.jpg"
-            alt="First slide"
-          />
-          <Carousel.Caption>
-            <h5>First slide label</h5>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="path_to_your_image2.jpg"
-            alt="Second slide"
-          />
-          <Carousel.Caption>
-            <h5>Second slide label</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="path_to_your_image3.jpg"
-            alt="Third slide"
-          />
-          <Carousel.Caption>
-            <h5>Third slide label</h5>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
+       {
+        heroData.map(hero =>{
+          return (
+            <Carousel.Item key={hero.id}>
+            <img
+              className="d-block w-100"
+              src= {hero.image}
+              alt={"slide" + hero.id}
+            />
+            <Carousel.Caption>
+              <h3>{hero.title}</h3>
+              <p>{hero.description}</p>
+              <a className='btn btn-primary' href= {hero.link}>Learn More</a>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          )
+        })
+       } 
       </Carousel>
     </section>
   );
