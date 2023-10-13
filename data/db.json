@@ -1,0 +1,125 @@
+
+{
+    "hotel": {
+      "name": "Good-Veiw",
+      "image_url": "https://photos.google.com/photo/AF1QipNtywOCk-WhPsNUfT29BCxImMoRe_cOGkkK56IR",
+      "description": "A luxurious hotel providing exceptional services and amenities.",
+      "properties_list": [
+        {
+          "id": 1,
+          "car_rentaal": true
+        },
+        {
+          "id": 2,
+          "Pool": false
+        },
+        {
+          "id": 3,
+          "Free WiFi": true  
+        },
+        {
+          "id": 4,
+          "Babysitting or childcare" : true
+        },
+        {
+          "id": 5,
+          "Spa and wellness packages" : false
+        },
+        {
+          "id": 6,
+          "Pet-friendly amenities" : true
+        },
+        {
+          "id": 7,
+          "Technology rental" : false
+        }
+      ],
+      "price_range": {
+        "low": "$100",
+        "high": "$500"
+      }
+
+    }
+
+
+    {
+        "name": "h9",
+        "image_url": "https://photos.google.com/photo/AF1QipNtywOCk-WhPsNUfT29BCxImMoRe_cOGkkK56IR",
+        "description": "A luxurious hotel providing exceptional services and amenities.",
+        "properties_list": [
+          {
+            "id": 1,
+            "car_rentaal": false
+          },
+          {
+            "id": 2,
+            "Pool": false
+          },
+          {
+            "id": 3,
+            "Free WiFi": true  
+          },
+          {
+            "id": 4,
+            "Babysitting or childcare" : true
+          },
+          {
+            "id": 5,
+            "Spa and wellness packages" : true
+          },
+          {
+            "id": 6,
+            "Pet-friendly amenities" : true
+          },
+          {
+            "id": 7,
+            "Technology rental" : true
+          }
+        ],
+        "price_range": {
+          "low": "$150",
+          "high": "$300"
+        }
+    }
+   
+    {
+        "name": "vibe",
+        "image_url": "https://photos.google.com/photo/AF1QipNtywOCk-WhPsNUfT29BCxImMoRe_cOGkkK56IR",
+        "description": "A luxurious hotel providing exceptional services and amenities.",
+        "properties_list": [
+          {
+            "id": 1,
+            "car_rental": true
+          },
+          {
+            "id": 2,
+            "Pool": false
+          },
+          {
+            "id": 3,
+            "Free WiFi": true  
+          },
+          {
+            "id": 4,
+            "Babysitting or childcare" : true
+          },
+          {
+            "id": 5,
+            "Spa and wellness packages" : true
+          },
+          {
+            "id": 6,
+            "Pet-friendly amenities" : false
+          },
+          {
+            "id": 7,
+            "Technology rental" : true
+          }
+        ],
+        "price_range": {
+          "low": "$350",
+          "high": "$400"
+        }
+    }
+
+  }

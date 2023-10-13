@@ -1,9 +1,8 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image'
 
-import img1 from '../assets/image/img1.jpg'
+import img4 from '../assets/image/img4.jpg';
 
 
 export default function AppAbout()
@@ -11,21 +10,19 @@ export default function AppAbout()
 return (
       <section id="about" className= 'block about-block'> 
     <Container fluid>
-        <div className='titel-holder'>
+        <div className='title-holder'>
          <h2>About Us</h2>
          <div className='subtitel'>a beautiful place to be</div>   
         </div>
     <Row>
       <Col sm={6}>
-        <image scr={img1} />
+      <img src={img4} alt="Image Alt Text" />
       </Col>
       <Col sm={6}>
-        content
+       <p> i am going to be great in this life trust me no matter the matter </p>
       </Col>
     </Row>
   </Container>
-
-
 
       </section>  
 

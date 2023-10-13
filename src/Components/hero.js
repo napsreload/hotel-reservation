@@ -1,17 +1,18 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import Image from 'react-bootstrap/Image';
 
 var heroData = [
   {
     id: 1,
-    image: require('../assets/image/img-hero1.jpg'),
+    image: require('../assets/image/img2.jpg'),
     title: 'everywhere good',
     description: 'am coming for you just wait',
     link: 'https://www.googel.com'
   },
   {
     id: 2,
-    image: require('../assets/image/img-hero1.jpg'),
+    image: require('../assets/image/img3.jpg'),
     description: 'am coming for you just wait',
     link: 'https://www.facebook.com'
 
