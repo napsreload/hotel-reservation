@@ -6,7 +6,10 @@ const AppFilter = () => {
 
   const toggleModal = () => {
     setIsModalOpen(!isModalOpen);
+    console.log('isModalOpen:', !isModalOpen); // Check the updated value of isModalOpen
   };
+
+  console.log('Rendering AppFilter. isModalOpen:', isModalOpen); // Check the current value of isModalOpen
 
   return (
     <div>
@@ -14,9 +17,10 @@ const AppFilter = () => {
         Open Filter Form
       </button>
 
-      {isModalOpen && <Properties_list onClose={toggleModal} />}
+      {isModalOpen && <Properties_list />} {/* Render Properties_list if isModalOpen is true */}
     </div>
   );
 };
 
 export default AppFilter;
+
