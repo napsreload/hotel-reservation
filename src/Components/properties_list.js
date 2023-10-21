@@ -12,7 +12,7 @@ const Properties_list = ({ onClose }) => {
 
 console.log("propertiesData",propertiesData)
 console.log("hotelPropertiesList",hotelPropertiesList)
-console.log("properties",properties)
+
 
 
   return (
