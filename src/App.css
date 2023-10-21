@@ -1,15 +1,8 @@
+.nav-bg {
 
-.App-header {
-
-    position: fixed; /* or position: sticky; */
-    top: 0;
-    width: 100%;
-    background-color: red;
-    padding: 20px;
-    color: white;
-    z-index: 1000; 
-  
+  background-color: bisque;
 }
+
 
 .App-hero {
   margin-top: 80px;
