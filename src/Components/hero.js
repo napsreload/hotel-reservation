@@ -29,7 +29,7 @@ export default function AppHero() {
           return (
             <Carousel.Item key={hero.id}>
             <img
-              className="d-block w-100"
+              className="d-block w-100  cus-img"
               src= {hero.image}
               alt={"slide" + hero.id}
             />
