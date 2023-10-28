@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import img4 from '../assets/image/img4.jpg';
 
 
-export default function AppAbout()
+export default function About()
 {
 return (
       <section id="about" className= 'block about-block'> 

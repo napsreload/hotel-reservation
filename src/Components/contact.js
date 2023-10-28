@@ -1,8 +1,11 @@
- const Contact = (){
-   return (
+import React from 'react';
+
+function Contact() {
+  return (
     <div>
-    <p>whayfgshcvsbkcna,s</p>
+      <p>adsakjfbvskjbvkjsaxlsabdksq</p>
     </div>
-   )    
- }
- export default Cantact;
+  );
+}
+
+export default Contact;
