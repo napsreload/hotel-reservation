@@ -15,11 +15,13 @@ function App() {
         <AppHeader />
         <AppHero />
       </header>
-      <Routes>
+      <main>
+        <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="contact" element={<Contact />} />
-      </Routes>
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </main>
     </div>
   );
 }

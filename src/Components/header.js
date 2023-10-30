@@ -12,23 +12,18 @@ export default function AppHeader() {
   const toggleServices = () => {
     setShowServices(!showServices);
   };
-    return (
-        <Navbar expand="lg" className="nav-bg">
-      <Container>
-        <Navbar.Brand href="#home" className= "brand"><span className= "ani-text"><b>Hotel</b>-<i>Reservations</i></span></Navbar.Brand>
-        <Navbar.Collapse id="nav-text">
-          <Nav className="ms-auto">
-            <Nav.Link to="/">Home</Nav.Link>
-            <Nav.Link to="/about">About</Nav.Link>
-            <Nav.Link to="/contact">Contact</Nav.Link>
-            <Nav.Link to"services">services</Nav.Link>
-            <Nav.Link href="#filter">filter</Nav.Link>
-            <Properties_list />
 
-          </Nav>
-        </Navbar.Collapse>
+  return (
+    <Navbar bg="dark" data-bs-theme="dark">
+      <Container>
+      <Navbar.Brand href="#home" className= "brand"><span className= "ani-text"><b>Hotel</b>-<i>Reservations</i></span></Navbar.Brand>
+        <Nav className="me-auto">
+          <Nav.Link as={Link} to="/">Home</Nav.Link>
+          <Nav.Link as={Link} to="/about">About</Nav.Link>
+          <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+          <Nav.Link as={Link} to="/services">Services</Nav.Link>
+        </Nav>
       </Container>
-      {showServices && <Services />} {/* Display Services component when showServices is true */}
     </Navbar>
-    )
+  );
 }
