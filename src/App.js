@@ -14,14 +14,17 @@ function App() {
       <header id="header">
         <AppHeader />
         <AppHero />
-      </header>
-      <main>
+
+        <main>
         <Routes>
-        <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+        <Route ref={Home} path="/" element={<Home />} />
+          <Route  ref={About} path="/about" element={<About />} />
+          <Route  ref={Contact} path="/contact" element={<Contact />} />
         </Routes>
       </main>
+
+      </header>
+    
     </div>
   );
 }

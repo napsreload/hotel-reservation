@@ -2,7 +2,7 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import Image from 'react-bootstrap/Image';
 
-var heroData = [
+const heroData = [
   {
     id: 1,
     image: require('../assets/image/img2.jpg'),
