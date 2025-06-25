@@ -3,7 +3,7 @@ import React from 'react';
 function Home() {
   return (
     <div>
-      <p>bawfdagksjfgboaskf</p>
+      <p>checking thing out God is Good </p>
     </div>
   );
 }
